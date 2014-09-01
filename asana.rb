@@ -1,6 +1,6 @@
 require "formula"
 
-ASANA_VERSION = '0.1.1'
+ASANA_VERSION = '0.1.2'
 class Asana < Formula
   homepage 'https://github.com/memerelics/asana'
   url 'https://github.com/memerelics/asana.git', tag: "v#{ASANA_VERSION}"
