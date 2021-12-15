@@ -10,7 +10,7 @@ class Asana < Formula
 
   def install
     ENV['GOPATH'] = buildpath
-    system 'go', 'get', 'github.com/codegangsta/cli'
+    system 'go', 'get', 'github.com/urfave/cli'
     system 'go', 'get', 'github.com/thash/asana'
     system 'go', 'build', '-o', 'asana'
     bin.install 'asana'
