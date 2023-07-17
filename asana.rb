@@ -3,7 +3,7 @@ require "formula"
 ASANA_VERSION = '0.2.1'
 class Asana < Formula
   homepage 'https://github.com/bklebe/asana'
-  url 'https://github.com/thash/asana.git', tag: "v#{ASANA_VERSION}"
+  url 'https://github.com/bklebe/asana.git', tag: "v#{ASANA_VERSION}"
   version ASANA_VERSION
 
   depends_on 'go' => :build
