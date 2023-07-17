@@ -1,6 +1,6 @@
 require "formula"
 
-class Asana < Formula
+class AsanaCli < Formula
   homepage 'https://github.com/bklebe/asana'
   url 'https://github.com/bklebe/asana/archive/v0.2.2.tar.gz'
 
