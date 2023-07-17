@@ -9,10 +9,6 @@ class Asana < Formula
   depends_on 'go' => :build
 
   def install
-    ENV['GOPATH'] = buildpath
-    system 'go', 'get', 'github.com/urfave/cli'
-    system 'go', 'get', 'github.com/thash/asana'
-    system 'go', 'build', '-o', 'asana'
-    bin.install 'asana'
+    system "go", "build", *std_go_args
   end
 end
