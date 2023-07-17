@@ -4,7 +4,7 @@
 class AsanaCli < Formula
   desc ""
   homepage ""
-  url "https://github.com/bklebe/homebrew-asana-cli/archive/refs/tags/v0.2.3.tar.gz"
+  url "https://github.com/bklebe/homebrew-asana-cli/archive/refs/tags/v0.2.4.tar.gz"
   sha256 "360803d6beb00d17e8509cc3665b73dd05732fc1ccdcfed2a0dcf411c600073b"
   license ""
 
