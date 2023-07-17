@@ -1,8 +1,5 @@
 class AsanaCli < Formula
-  desc ""
-  homepage ""
   url "https://github.com/bklebe/asana/archive/refs/tags/v0.2.2.tar.gz"
-  license ""
 
   depends_on "go" => :build
 
