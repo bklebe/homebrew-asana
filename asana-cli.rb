@@ -12,7 +12,6 @@ class AsanaCli < Formula
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
     system "go", "build", *std_go_args(ldflags: "-s -w")
-    bin.install "asana-cli" => "asana"
   end
 
   test do
