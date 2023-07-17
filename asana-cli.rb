@@ -7,6 +7,6 @@ class AsanaCli < Formula
   depends_on 'go' => :build
 
   def install
-    system "go", "build", *std_go_args
+    system "go", "build", "-o", "asana"
   end
 end
